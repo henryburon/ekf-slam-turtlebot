@@ -1,0 +1,30 @@
+~HW1~
+
+[1] People I worked with: Rahul, Shail
+[2] Used this for launching saved rviz config: https://github.com/ros2/rviz/issues/627
+[3] Used this for learning namespace syntax: https://www.hadabot.com/learn-ros2-intro-launch-files.html?step=add-namespace-to-launch-file
+[4] For normalize_angle function: https://stackoverflow.com/questions/2320986/easy-way-to-keeping-angles-between-179-and-180-degrees
+[5] Used Srikanth's "invalid service" discussion post for setting up the CMakeLists.txt in nusim.
+[6] Used for angle function in geometry2d.cpp: https://www.cuemath.com/geometry/angle-between-vectors/
+
+~HW2~
+
+Worked With: Anuj, Rahul, Srikanth, Shail, Carter, Leo, Allen, Stella
+
+[7] Desc: Modern Robotics, Kevin Lynch, Ch 13.5 pg. 549-550 for forward kinematics function in diff_drive.cpp
+    Link: https://hades.mech.northwestern.edu/images/2/25/MR-v2.pdf
+    Accessed: 2/3/24
+
+[8] Desc: Used for writing REQUIRE_THROWS_AS test case (impossible-to-follow twist) in test_diff_drive.cpp
+    Link: https://stackoverflow.com/questions/35757334/catch-unit-testing-framework-require-throws-as
+    Accessed: 2/3/24
+
+[9] Desc: Used for launching the extra terminal with teleop_twist_keyboard in start_robot.launch.xml
+    Link: https://robotics.stackexchange.com/questions/100193/launching-teleop-twist-keyboard-from-launch-file-along-with-other-nodes-messes-u
+    Accessed: 2/5/24
+
+[10] Desc: Used for creating rosidl type support targets for the custom services in nuturtle_control's CMakeLists.txt
+     Link: https://robotics.stackexchange.com/questions/23171/creating-a-custom-msg-in-ros2
+     Accessed: 2/7/24
+
+

@@ -1,0 +1,6 @@
+*.vscode
+turtlelib/Catch2/
+build/
+svg_lib_example.svg
+install/*
+log/*

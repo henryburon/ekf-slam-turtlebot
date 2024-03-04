@@ -1,0 +1,5 @@
+repositories:
+  nuturtlebot_msgs:
+    type: git
+    url: git@github.com:ME495-Navigation/nuturtlebot_msgs.git
+    version: humble

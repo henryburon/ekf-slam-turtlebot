@@ -1,0 +1,19 @@
+<launch>
+
+    <!-- Launch the red robot from the python launch file -->
+    <include file="$(find-pkg-share nuturtle_description)/launch/load_one.launch.py">
+        <arg name="color" value="red"/>
+        <arg name="use_rviz" value="false"/>
+    </include>
+
+    <!-- RViz -->
+    <arg name="rviz_file" default="$(find-pkg-share nusim)/config/nusim.rviz"/>
+    <node pkg="rviz2" exec="rviz2" name="rviz2" args="-d $(var rviz_file)"/>
+
+    <!-- Nusim node -->
+    <arg name="config_file" default="basic_world.yaml" description="Allows user to specify a .yaml file to configure the simulator"/>
+    <node pkg="nusim" exec="nusim" name="nusim">
+        <param from="$(find-pkg-share nusim)/config/$(var config_file)"/>
+    </node>
+
+</launch>
